@@ -7,6 +7,7 @@ const express = require('express');
 const { SaaSInsightProService } = require('./services/saasinsightpro-service');
 const morgan = require('morgan');
 const cors = require('cors');
+const buffer = require('env-nodejs');
 
 class Server {
     constructor(port = 3000) {
